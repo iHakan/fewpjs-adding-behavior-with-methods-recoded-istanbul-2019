@@ -12,7 +12,10 @@ class Cat{
 class Dog{
   constructor(name){
     this.name = name;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 7890cad6b05f5c24ec6ae9dd14d9a8b338224799
   }
   
   speak(){
@@ -20,6 +23,7 @@ class Dog{
   }
 }
 class Bird{
+<<<<<<< HEAD
   constructor(name,sex){
     this.name = name;
     this.sex = sex;
@@ -32,6 +36,21 @@ class Bird{
      return `${this.name} says squawk!`
    }
  }
+=======
+  constructor(name){
+    this.name = name;
+    
+  }
+  if(name == "male"){
+      speak(){
+       return `It's me! ${this.name}, the parrot!`;
+      }
+  }else{
+      speak(){
+          return `${this.name} says squawk!`;
+      } 
+  }
+>>>>>>> 7890cad6b05f5c24ec6ae9dd14d9a8b338224799
 
 }
 
